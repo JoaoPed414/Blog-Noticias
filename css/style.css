@@ -76,6 +76,14 @@ section {
 
 /* Article - Notícia */
 article {
+    
+    flex-direction: column;
+
+
+
+
+
+
     margin-top: 1rem;
     background-color: #f9f9f9;
     display: flex;
@@ -120,3 +128,20 @@ footer {
 
 
 
+/* Responsividade */
+
+
+/* Extra small (xs) - Smartphone (portrait / retrato */
+
+ @media (max-width: 576px) {
+    
+nav {
+    background-color: rgba(255, 0, 0, 0.33);
+}
+
+ }
+
+/* Small - Smartphone (landscape / paisagem */
+/* Medium - Tablet (portrait / retrato */
+/* Notebock - 
+/* Desktop - 
